@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+  </head>
+  <body>
+    <script src="script.js"></script>
+
+    <div class="filterUser">
+      <p class="text1">Filter ui cards via their profession.</p>
+
+      <!-- Select Profession -->
+      <div class="drop">
+        <select name="profession" id="dropdown">
+          <option value="" disabled selected>Profession</option>
+          <option value="Developer">Developer</option>
+          <option value="Admin">Admin</option>
+          <div class="arrow"><i class="fas fa-chevron-down"></i></div>
+        </select>
+      </div>
+
+      <!-- id - name -profession- age to display -->
+      <div class="container">
+        <!-- <div class="employee-data">
+          <p></p>
+        </div> -->
+      </div>
+
+      <!-- Filter Button -->
+      <button onclick="Arrange()" class="btn" id="filterbtn" type="button">
+        <p>Filter</p>
+      </button>
+    </div>
+
+    <!--Add new User  -->
+    <div class="addUser">
+      <p class="text1">Add a new user</p>
+
+      <label for="name">Enter Name</label>
+      <input type="text" value="name" id="addname"/>
+      <label for="name">Enter Profession</label>
+      <input type="text" name="profession" id="addProfession"/>
+      <label for="name">Enter Age</label>
+      <input type="number" value="age" id="addage"/>
+
+      <button onclick="addUser()" class="btn" id="addButton" type="submit">
+        <p>Add User</p>
+      </button>
+
+    </div>
+  </body>
+</html>

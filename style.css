@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background: #1E1E1E;
+    position: relative;
+}
+.text1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #FFFFFF;   
+
+    position: absolute;
+    width: 378px;
+    height: 29px;
+    left: 58px;
+    top: 105px;
+}
+.drop{
+    position: absolute;
+    width: 196px;
+    height: 58px;
+    left: 58px;
+    top: 199px;
+    
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    background: #000000;
+    
+}
+
+#dropdown{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+    position: absolute;
+    width: 172px;
+    height: 28px;
+    top: 15px;
+    left: 18px;
+    background: #000000;
+    border: none;
+}
+/* look after */
+.arrow{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 213px;
+    top: 218px;   
+    
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 37.5%;
+    bottom: 37.5%;
+
+    /* border: 2px solid #FFFFFF; */
+}
+
+/* filter button */
+.btn{
+    position: absolute;
+    width: 226px;
+    height: 58px;
+    left: 58px;
+    top: 583px;
+    
+    background: #FFFFFF;    
+    border: none;
+}
+.btn p{
+    position: absolute;
+    width: 81px;
+    height: 33px;
+    left: 68px;
+    top: 12px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    
+    color: #000000;    
+}
+
+
+/* Add new User */
+.addUser .text1{
+    position: absolute;
+    width: 175px;
+    height: 29px;
+    left: 58px;
+    top: 762px;    
+}
+.addUser label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+}
+.addUser input{
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background: #000000;
+}
+/* name */
+.addUser label:nth-child(2){
+    position: absolute;
+    width: 119px;
+    height: 25px;
+    left: 58px;
+    top: 846px;    
+}
+.addUser input:nth-child(3){
+    position: absolute;
+    width: 531px;
+    height: 56px;
+    left: 58px;
+    top: 886px;    
+}
+/* profession */
+.addUser label:nth-child(4){
+    position: absolute;
+    width: 157px;
+    height: 25px;
+    left: 647px;
+    top: 846px;   
+}
+.addUser input:nth-child(5){
+    position: absolute;
+    width: 531px;
+    height: 56px;
+    left: 647px;
+    top: 886px;
+}
+/* age */
+.addUser label:nth-child(6){
+    position: absolute;
+    width: 133.35px;
+    height: 25px;
+    left: 1220px;
+    top: 846px;   
+}
+.addUser input:nth-child(7){
+    position: absolute;
+    width: 451px;
+    height: 56px;
+    left: 1220px;
+    top: 886px;
+}
+/* Add user button */
+.addUser .btn{
+    position: absolute;
+    left: 58px;
+    top: 983px;   
+}
+.addUser .btn p{
+    position: absolute;
+    width: 139px;
+    height: 33px;
+    left: 44px;
+    top: 12px;  
+}
+
+
+
+/* add elements by array */
+.container .employee-data{
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+
+    position: absolute;
+    width: 536px;
+    height: 59px;
+    left: 58px;
+    top: 306px;
+}
