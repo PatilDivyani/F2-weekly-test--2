@@ -105,66 +105,6 @@ body{
     left: 58px;
     top: 762px;    
 }
-.addUser label{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    
-    color: #FFFFFF;
-}
-.addUser input{
-    box-sizing: border-box;
-    border: 1px solid #FFFFFF;
-    border-radius: 5px;
-    background: #000000;
-}
-/* name */
-.addUser label:nth-child(2){
-    position: absolute;
-    width: 119px;
-    height: 25px;
-    left: 58px;
-    top: 846px;    
-}
-.addUser input:nth-child(3){
-    position: absolute;
-    width: 531px;
-    height: 56px;
-    left: 58px;
-    top: 886px;    
-}
-/* profession */
-.addUser label:nth-child(4){
-    position: absolute;
-    width: 157px;
-    height: 25px;
-    left: 647px;
-    top: 846px;   
-}
-.addUser input:nth-child(5){
-    position: absolute;
-    width: 531px;
-    height: 56px;
-    left: 647px;
-    top: 886px;
-}
-/* age */
-.addUser label:nth-child(6){
-    position: absolute;
-    width: 133.35px;
-    height: 25px;
-    left: 1220px;
-    top: 846px;   
-}
-.addUser input:nth-child(7){
-    position: absolute;
-    width: 451px;
-    height: 56px;
-    left: 1220px;
-    top: 886px;
-}
 /* Add user button */
 .addUser .btn{
     position: absolute;
@@ -179,17 +119,103 @@ body{
     top: 12px;  
 }
 
+.form {
 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
 
-/* add elements by array */
-.container .employee-data{
+}
+.form div label{
+    position: absolute;
+    width: 119px;
+    height: 25px;
+    left: 58px;
+    top: 846px;   
+}
+.form div:nth-child(2) label{
+    position: absolute;
+    width: 157px;
+    height: 25px;
+    left: 647px;
+    top: 846px; 
+}
+.form div:nth-child(3) label{
+    position: absolute;
+    width: 133.35px;
+    height: 25px;
+    left: 1220px;
+    top: 846px;   
+}
+.form input{
     box-sizing: border-box;
     border: 1px solid #FFFFFF;
-    border-radius: 10px;
+    border-radius: 5px;
+    background: #000000;
+}
+#addname{
+    position: absolute;
+    width: 531px;
+    height: 56px;
+    left: 58px;
+    top: 886px;    
+}
+#addprofession{
+    position: absolute;
+    width: 531px;
+    height: 56px;
+    left: 647px;
+    top: 886px;
+}
+#addage{
+    position: absolute;
+    width: 451px;
+    height: 56px;
+    left: 1220px;
+    top: 886px;
+}
+
+/* display employee data */
+#container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 
     position: absolute;
     width: 536px;
     height: 59px;
     left: 58px;
     top: 306px;
+    margin: 0;
+    padding: 0;
+}
+
+#container .user{
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 34px;
+    align-items: center;
+}
+#container .user div{
+    display: flex;
+    align-items: center;
+    height: 59px;
+    /* margin: 16px 13px 0 18px; */
+    text-align: center;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
 }
